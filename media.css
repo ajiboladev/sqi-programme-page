@@ -1,4 +1,66 @@
+                               /* NAVBAR */
+
+@media (max-width:1400px){
+    .navigation{
+        max-width: 100%;
+        margin: 0 auto;
+        z-index: 100;
+    }
+    .navigation-parent{
+        width: 85%;
+        margin: 0 auto;
+    }
+ }
+
+  @media (max-width:979px){
+ .nav-content .navul{
+    
+        display: none;
+    }
+    .menuicon{
+        display: block;
+    }
+    #logo{
+        width: 50px;
+    }
+    .menuicon:hover .navul{
+        display: block;
+        transition: 2s;
+    }
+    .navigation{
+        position: relative;
+        border-top: 1px solid rgba(128, 128, 128, 0.533);
+    }
+    .menuicon{
+        font-size: 1.5rem;
+    }
+ } 
+
+@media (max-width:660px){
+    .navigation{
+        width: 100%;
+    }
+    .navigation-parent{
+        width: 100%;
+        padding: 12px 0px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .menuicon{
+        margin-right:1rem ;
+    }
+}
+
+ @media (max-width:356px){
+    #logo{
+        width: 40px;
+    }
+ }
+              
+                
                 /* SECTION 1 */
+                    /* TAB */
 @media (max-width: 768px) {
   /* .text-overlay {
     top: 150px;
@@ -62,9 +124,84 @@
   }
 }
 
+            /* PHONE */
 @media (max-width:500px){
     .text-overlay {
     background-color: transparent;
     font-size: 5rem;
   }
+}
+
+                    /* SECTION 2 */
+                        /* TAB */
+@media (max-width:768px){
+    .section2{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section2 .container h1{
+    color: navy;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.card{
+    border: none;
+}
+
+.section2-card1 p{
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+    color: #333;
+    font-weight: 300;
+}
+
+.section2 .container h1 .row{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+            /* PHONE */
+@media (max-width:500px){
+    .section2{
+    max-width: 100%;
+    /* background-color: red; */
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section2 .container h1{
+    color: navy;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.card{
+    border: none;
+}
+
+.section2-card1 p{
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.section2-card1, .section2-card2{
+    /* background-color: black; */
+    width: 300px;
+    margin: 0 auto;
+    margin-left: -12px;
+}
 }
