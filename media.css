@@ -1,0 +1,70 @@
+                /* SECTION 1 */
+@media (max-width: 768px) {
+  /* .text-overlay {
+    top: 150px;
+    right: 20px;
+    font-size: 1.5rem;
+    padding: 15px;
+  } */
+  /* .text-overlay p {
+    font-size: 1rem;
+  } */
+
+  .video-wrapper-bigscreen {
+    display: none;
+  }
+
+  .section1 {
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .video-wrapper {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, rgba(150, 105, 97, 0.67) 0%, rgba(2, 0, 76, 0.84) 100%), url(https://edu.sqi.ng/wp-content/uploads/2020/02/SQI-CLASS-SHOT.jpg) !important;
+}
+  
+
+  .image{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+  }
+
+  .video-wrapper-mobile{
+    display: block;
+  }
+
+  .text-overlay {
+    background-color: transparent;
+    font-size: 1.3rem;
+  }
+  
+  .text-overlay p {
+    font-size: 1.2rem;
+  }
+
+  .text-overlay h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .btn-outline-light{
+    font-size: 1.2rem;
+    border: 2px solid white;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width:500px){
+    .text-overlay {
+    background-color: transparent;
+    font-size: 5rem;
+  }
+}
