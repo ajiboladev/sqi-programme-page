@@ -273,5 +273,17 @@
     background-color: #ffffff;
     box-shadow: 0px 2px 2px 2px rgba(128, 128, 128, 0.234);
     width: 100%;
+    padding: 20px 10px 10px 10px;
+}
+}
+
+                            /* SECTION5 */
+                            /* TAB */
+@media (max-width:992px){
+    .section5-container-h4-h1-row-col-card .card-body:nth-of-type(1){
+    /* background-color: red; */
+    border: none;
+    box-shadow: none;
+    margin: 0;
 }
 }

@@ -258,7 +258,7 @@ video {
     display: flex;
     flex-direction: column;
     gap: 100px;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
 
 .section4 .container .row .col .card h5{
@@ -278,4 +278,65 @@ video {
 .section4 .container .row .col .card{
     background-color: #ffffff;
     box-shadow: 0px 2px 2px 2px rgba(128, 128, 128, 0.234);
+    padding: 25px;
+}
+
+
+                        /* SECTION 5 */
+.section5{
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.section5 .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section5 .container h4{
+    color: #333;
+    font-weight: 800;
+    letter-spacing: 8px;
+    padding-bottom: 1.5rem;
+}
+
+.section5 .container h4 h1{
+    color: #444;
+    font-weight: 850;
+    scroll-snap-stop: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.section5 .container h4 .h1 .row .col .card .card-body1{
+    padding-bottom: 50px;
+    background-color: red;
+
+}
+
+.section5-container-h4-h1-row-col-card .card-body:nth-of-type(1){
+    /* background-color: red; */
+    border: none;
+    box-shadow: none;
+    margin-bottom: 10rem;
+}
+
+.section5-container-h4-h1-row-col-card{
+    background-color: transparent;
+    border: none;
+}
+
+.section5-container-h4-h1-row-col-card .card-body .card-title{
+    color: #444;
+    font-weight: 900;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.section5-container-h4-h1-row-col-card .card-body  .card-text{
+    color: #333;
+    font-weight: 7500;
+    line-height: 2.3rem;
+    font-size: 1.1rem;
 }
