@@ -269,7 +269,7 @@ video {
 }
 
 .section4 .container .row .col .card p{
-    color: #444;
+    color: #666666;
     font-weight: 500;
     font-size: 1.1rem;
     padding-bottom: 10px;
@@ -319,7 +319,7 @@ video {
     /* background-color: red; */
     border: none;
     box-shadow: none;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .section5-container-h4-h1-row-col-card{
@@ -335,8 +335,23 @@ video {
 }
 
 .section5-container-h4-h1-row-col-card .card-body  .card-text{
-    color: #333;
+    color: #666666;
     font-weight: 7500;
     line-height: 2.3rem;
     font-size: 1.1rem;
+}
+
+
+                    /* SECTION 6*/
+.section6{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.section6 .card .card-img{
+    width:99.9%;
+    height: 2%;
+    object-fit: cover;
 }
