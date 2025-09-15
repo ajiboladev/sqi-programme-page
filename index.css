@@ -380,3 +380,18 @@ video {
         color:white;
         font-size: 20px;
     }
+
+    .section6 .card-img-overlay .card-text a:hover{
+        background-color: rgba(3, 3, 91, 0.941);
+        text-decoration: none;
+        color: white;
+    }           
+
+                        /* SECTION 9 */
+.admission-section {
+  background-image: linear-gradient(180deg, rgba(30, 49, 117, 0.5) 0%, #000033 100%), 
+                    url('https://edu.sqi.ng/wp-content/uploads/2023/03/financial-technology-31c-1-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
