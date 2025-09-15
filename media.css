@@ -287,3 +287,38 @@
     margin: 0;
 }
 }
+
+
+                    /* SECTION 6 */
+                    /* TAB */
+@media (max-width:768px){
+    .section6 .card-img-overlay h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+}
+
+
+            /* PHONE */
+@media (max-width:540px){
+    .section6 .card-img-overlay .card-text a{
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: navy;
+    transition: 0.5s;
+    color:white;
+    font-size: 15px;
+}
+
+.section6 .card-img-overlay .card-text{
+    display:flex;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 0px;
+}
+}
+
+
+

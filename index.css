@@ -350,8 +350,33 @@ video {
     padding: 50px 0;
 }
 
-.section6 .card .card-img{
+.section6 img{
     width:99.9%;
-    height: 2%;
+    height: 400px;
     object-fit: cover;
 }
+
+.section6 .card-img-overlay{
+    /* background:linear-gradient( 200deg, rgb(2, 2, 59) 99%, white 50%) ; */
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.section6 .card-img-overlay h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+    .section6 .card-img-overlay .card-text a{
+        padding: 30px 20px;
+        border-radius: 20px;
+        background-color: navy;
+        transition: 0.5s;
+        color:white;
+        font-size: 20px;
+    }
