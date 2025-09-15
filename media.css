@@ -179,6 +179,9 @@
     max-width: 80%;
     margin: 0 auto;
     padding: 20px;
+    /* background-color: green; */
+    /* margin-left: -10px; */
+    overflow-wrap: break-word;
 }
 
 .section2 .container h1{
@@ -204,6 +207,36 @@
     margin: 0 auto;
     margin-left: -12px;
 }
+}
+
+                    /* SMALL SCREEN */
+@media (max-width:300px){
+    .section2{
+    max-width:100%;
+    /* background-color: blue; */
+    }
+
+ .section2 .container .row .col .card{
+        max-width:95%;
+        margin: auto;
+        width: 700px;
+        /* padding: 20px; */
+        /* background-color: red; */
+        overflow-wrap: break-word;
+    } 
+
+    .section2 .container .row .col{
+        max-width:100%;
+        margin: auto;
+        width: 1000px;
+        /* background-color: red; */
+    } 
+
+    .section2 .container .row .col .card-body a{
+        margin: auto;
+        width: 100px;
+        /* background-color: red; */
+    } 
 }
 
                     /* SECTION3 */
